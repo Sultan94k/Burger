@@ -1,26 +1,19 @@
 {
-  "name": "Burger",
+  "name": "burgers",
   "version": "1.0.0",
-  "description": "",
+  "description": "Welcome to Good Burger. Home of the Good Burger.",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sultan94k/Burger.git"
-  },
-  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Sultan94k/Burger/issues"
-  },
-  "homepage": "https://github.com/Sultan94k/Burger#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
     "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
-    "mysql": "^2.17.1"
+    "express-handlebars": "^3.0.0",
+    "mysql": "^2.15.0"
   }
 }
