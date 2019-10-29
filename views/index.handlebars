@@ -9,7 +9,7 @@
     <div class="col-md-12">
       <div class="card border border-dark">
         <div class="card-header bg-dark text-white">
-         Can I take your order?
+          Can I take your order?
         </div>
         <!--Create/add burger form-->
         <div class="card-body">
@@ -30,15 +30,15 @@
     <div class="col-md-6 mt-4">
       <div class="card border border-dark">
         <div class="card-header bg-dark text-white">
-         Burgers
+          Burgers
         </div>
         <!--Div to hold burgers that have not been devoured yet-->
         <div class="card-body">
-              {{#each burgers}}
-                {{#unless devoured}}
-                  {{> burgers/burger-block devour=false}}
-                {{/unless}}
-              {{/each}}
+          {{#each burgers}}
+          {{#unless devoured}}
+          {{> burgers/burger-block devour=false}}
+          {{/unless}}
+          {{/each}}
         </div>
       </div>
     </div>
@@ -46,14 +46,14 @@
     <div class="col-md-6 mt-4">
       <div class="card devoured-card">
         <div class="card-header text-black" id="devoured-card-header">
-         Devoured burgers
+          Devoured burgers
         </div>
         <!--When a burger has been devoured, put burger here-->
         <div class="card-body">
           {{#each burgers}}
-              {{#if devoured}}
-                {{> burgers/burger-devoured devour=true}}
-              {{/if}}
+          {{#if devoured}}
+          {{> burgers/burger-devoured devour=true}}
+          {{/if}}
           {{/each}}
         </div>
       </div>
@@ -62,21 +62,15 @@
 
   <!--Footer-->
   <div class="foot">
-  <div class="row mt-5">
-    <div class="col-md-12">
-      <div class="card footer">
-        <div class="card-body footer-body text-white">
-          <h5 class="card-title text-white">Big Burger</h5>
-          <p class="card-text">Welcome to Big Burger. Home of the Big Burger.</p>
-          <a href="https://github.com/Sultan94k/Burger" class="btn btn-dark mr-2" target="_blank">GitHub Repo</a>
+    <div class="row mt-5">
+      <div class="col-md-12">
+        <div class="card footer">
+          <div class="card-body footer-body text-white">
+            <h5 class="card-title text-white">Big Burger</h5>
+            <p class="card-text">Welcome to Big Burger. Home of the Big Burger.</p>
+            <a href="https://github.com/Sultan94k/Burger" class="btn btn-dark mr-2" target="_blank">GitHub Repo</a>
+          </div>
         </div>
       </div>
     </div>
-</div>
-</div>
-
-
-
-
-
-
+  </div>
