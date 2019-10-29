@@ -1,0 +1,17 @@
+body {
+    background-image: url('https://pixabay.com/get/54e2dd424853ae14ea9d8d79c328337f1022dfe0545372497c2d73dd/veggie-2281212.jpg');
+    background-size: cover;
+    width: 800px;
+    margin: auto;
+}
+.card{
+border: solid 1px black;
+background: lightblue;
+}
+.jumbotron{
+    height: 200px;
+    padding: 10px;
+}
+.footer-body{
+    background: rgb(229,173,141);
+}
